@@ -1,0 +1,84 @@
+@import "../../../tools/vars.css";
+
+.banner_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.banner_features {
+  min-width: 400px;
+  margin-bottom: 100px;
+}
+
+.banner_rating {
+  color: var(--color-light);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.banner_score {
+  padding: 10px;
+  font-size: 2em;
+  font-weight: 400;
+  color: var(--color-primary);
+  background: var(--color-light);
+}
+
+.banner_content {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.banner_pricing {
+  color: var(--color-light);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner_pricing svg {
+  padding: 15px;
+  font-size: 3em;
+  font-weight: normal;
+  color: var(--color-light);
+  background: rgba(255, 0, 0, 0.6);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.banner_pricing svg:hover {
+  background: rgba(255, 0, 0, 0.9);
+}
+
+.banner_content h4 {
+  color: var(--color-light);
+  font-size: 1.1em;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.banner_content span {
+  font-size: 0.6em;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.banner_subtitle {
+  color: var(--color-primary);
+}
+
+.banner_left h1 {
+  color: var(--color-light);
+  font-size: 5em;
+  letter-spacing: 5px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  font-family: var(--font-bauhaus);
+}
